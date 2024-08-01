@@ -147,27 +147,18 @@
     box-shadow: none !important;
 }
 
-.plus-btn:not(.collapsed) {
-    color: #000;
-}
-
 .plus-btn::after {
-    background-image: url(https://static-00.iconduck.com/assets.00/plus-icon-256x256-pzhqqf80.png) !important;
+background-image: url(../image/svg/plusSvg.svg) !important;
 }
 
 .plus-btn:not(.collapsed)::after {
-    background-image: url(https://png.pngtree.com/element_our/20190528/ourmid/pngtree-flattened-minus-image_1127795.jpg) !important;
+    background-image: url(../image/svg/minusSvg.svg) !important;
 }
-
-.plus-btn:not(.collapsed) {
-    color: white;
-}
-
-.minus-btn::after {
+.white-arrow::after{
     background-image: url(../image/arrow1.png) !important;
+    background-position: center;
 }
-
-
-.arrow-btn::after {
+.blue-arrow::after{
     background-image: url(../image/arrow.png) !important;
+    background-position: center;
 }
