@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .bg-color {
     background-color: #F6E300;
 }
@@ -5,11 +9,6 @@
 .background-color {
     background: #FFF03F !important;
 }
-
-.mb-3 {
-    margin-bottom: 3px;
-}
-
 
 .heading {
     font-family: 'Poppins', sans-serif;
@@ -46,7 +45,6 @@
     background-image: url(../image/darkImage.png);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .max-w {
@@ -72,12 +70,11 @@
 
 .background {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
-
     border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
 }
 
 .faq {
-    font-family: 'Audiowide' ,sans-serif;
+    font-family: 'Audiowide', sans-serif;
     font-size: 64px;
     font-weight: 400;
     line-height: 81.59px;
@@ -96,11 +93,10 @@
     border-top-left-radius: 40px !important;
     border-bottom-right-radius: 40px !important;
     box-shadow: 2px 0px 5px 3px #1EADB6;
-
 }
 
 .question {
-    font-family: 'Montserrat' ,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 29.26px;
@@ -109,7 +105,7 @@
 }
 
 .answer {
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -121,7 +117,6 @@ font-family: 'Montserrat', sans-serif;
 
 .bg-transparent {
     background-color: transparent;
-
 }
 
 .top {
@@ -143,21 +138,25 @@ font-family: 'Montserrat', sans-serif;
 .pr-13 {
     padding-right: 13px;
 }
+
 .box-shadow {
     box-shadow: none !important;
 }
+
 .plus-btn::after {
-background-image: url(../image/svg/plusSvg.svg) !important;
+    background-image: url(../image/svg/plusSvg.svg) !important;
 }
 
 .plus-btn:not(.collapsed)::after {
     background-image: url(../image/svg/minusSvg.svg) !important;
 }
-.white-arrow::after{
+
+.white-arrow::after {
     background-image: url(../image/arrow1.png) !important;
     background-position: center;
 }
-.blue-arrow::after{
+
+.blue-arrow::after {
     background-image: url(../image/arrow.png) !important;
     background-position: center;
 }
